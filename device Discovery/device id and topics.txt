@@ -1,9 +1,15 @@
 A0:B7:65:22:3C:64
 
 
-discovery = {"id":"device_00:00:00:00:00:00","firmware":"1.0.0","capabilities":["temp","battery"]}
+discovery = {"id":"device_A0:B7:65:22:3C:64","firmware":"1.0.0","capabilities":["temp","battery"]}
 
 
 device_C0:49:EF:D0:48:2C/commands
 device_C0:49:EF:D0:48:2C/telemetry
 device_C0:49:EF:D0:48:2C/status
+
+device_A0:B7:65:22:3C:64/commands
+device_A0:B7:65:22:3C:64/telemetry
+device_A0:B7:65:22:3C:64/status
+
+This will help you understand how to handle multiple devices dynamically.
